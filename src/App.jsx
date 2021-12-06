@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Link to="/books">
           {' '}
-          <h1>Library Catalog</h1>{' '}
+          <h1>Library Catalog!</h1>{' '}
         </Link>
         <Switch>
           <Route path="/books/:id" component={BookDetail} />
